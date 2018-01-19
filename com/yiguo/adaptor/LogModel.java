@@ -1,0 +1,51 @@
+package com.yiguo.adaptor;
+
+import java.io.Serializable;
+
+public class LogModel implements Serializable
+{
+
+    private static final long serialVersionUID = 2507861482767255042L;
+
+    private String logId;
+    
+    private String operateUser;
+    
+    private String operateTime;
+    
+    private String logContent;
+
+    public String getLogId() {
+        return logId;
+    }
+
+    public void setLogId(String logId) {
+        this.logId = logId;
+    }
+
+    public String getOperateUser() {
+        return operateUser;
+    }
+
+    public void setOperateUser(String operateUser) {
+        this.operateUser = operateUser;
+    }
+
+    public String getOperateTime() {
+        return operateTime;
+    }
+
+    public void setOperateTime(String operateTime) {
+        this.operateTime = operateTime;
+    }
+
+    public String getLogContent() {
+        return logContent;
+    }
+
+    public void setLogContent(String logContent) {
+        this.logContent = logContent;
+    }
+    
+    
+}
